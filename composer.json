@@ -1,0 +1,23 @@
+{
+    "name": "taalendigitaal/bootstrap-chosen",
+    "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+        	"scripts": [
+                "chosen/chosen.jquery.js"
+            ],
+            "styles": [
+                "chosen/chosen.css"
+            ],
+            "files": [
+                "chosen/chosen.jquery.min.js",
+                "chosen/chosen-sprite.png",
+                "chosen/chosen-sprite@2x.png"
+            ]
+        }
+    }
+}
